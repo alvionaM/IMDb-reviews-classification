@@ -93,7 +93,7 @@ To terminate the process without exceeding the maximum number of iterations, the
             \color{black}neg (-)\rightarrow C=0
             \end{cases}`$
             <div align="center">
-                <img src="image-2.png" alt="Diagram" width="250">
+                <img src="../media/image-2.png" alt="Diagram" width="250">
             </div>
 
 #### λ : regularization factor
@@ -121,5 +121,5 @@ Each time fit is invoked, the Neural Network is reconstructed (create_bi_GRU_RNN
 - **Predict:**
 Predict invokes the corresponding standard predict (of keras model).Then the predictions are converted from probabilistic to binary. This is done to be able to reuse the learning_curves function for our graphs.
 <div align="center">
-    <img src="model.png" alt="biGRU RNN model">
+    <img src="../media/model.png" alt="biGRU RNN model">
 </div>
