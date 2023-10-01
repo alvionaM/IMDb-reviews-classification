@@ -53,13 +53,13 @@ Predict method is used to compute the classification probabilities for the testi
             - ➡️ Compute the following probabilities:
 
     $`P(C=0 | feature_i) = P(C=0)*\color{#2c73cc}P(feature_i | C=0) =\begin{cases}
-\color{black}P(feature_i = 1 | C=0), if\; feature_i = 1,\\
-\color{black}1 - P(feature_i = 1 | C=0), if\; feature_i=0
+P(feature_i = 1 | C=0), if\; feature_i = 1,\\
+1 - P(feature_i = 1 | C=0), if\; feature_i=0
 \end{cases}`$
 
     $`P(C=1 | feature_i) = P(C=1)*\color{#2c73cc}P(feature_i | C=1) =\begin{cases}
-\color{black}P(feature_i = 1 | C=1), if\; feature_i = 1,\\
-\color{black}1 - P(feature_i = 1 | C=1), if\; feature_i=0
+P(feature_i = 1 | C=1), if\; feature_i = 1,\\
+1 - P(feature_i = 1 | C=1), if\; feature_i=0
 \end{cases}`$
     <br>
     ...which are then multiplied according to the formula, giving $P(C=0 | example)$ and $P(C=1|example)$
@@ -89,8 +89,8 @@ To terminate the process without exceeding the maximum number of iterations, the
         - ➡️Compute the product of the weight vector (as learned during fitting) and the feature vector of the current example ($\vec{w} * \vec{x}$). The classification is done according to the sign of this product:
 
             $`(\vec{w} * \vec{x})=\begin{cases}
-            \color{black}pos (+) \rightarrow C=1\\
-            \color{black}neg (-)\rightarrow C=0
+            pos (+) \rightarrow C=1\\
+            neg (-)\rightarrow C=0
             \end{cases}`$
             <div align="center">
                 <img src="../media/diagram.png" alt="Diagram" width="250">
