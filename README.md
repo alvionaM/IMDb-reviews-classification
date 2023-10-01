@@ -93,7 +93,7 @@ To terminate the process without exceeding the maximum number of iterations, the
             \color{black}neg (-)\rightarrow C=0
             \end{cases}`$
             <div align="center">
-                <img src="../media/image-2.png" alt="Diagram" width="250">
+                <img src="../media/diagram.png" alt="Diagram" width="250">
             </div>
 
 #### λ : regularization factor
