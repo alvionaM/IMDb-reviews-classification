@@ -48,7 +48,8 @@ Fit method is used for the computation (and assignment to the relevant class fie
 
 - **predict** (x_test_binary)
 Predict method is used to compute the classification probabilities for the testing data given.
-    - ➡️ For each  instance of the testing set to be classified:
+    - Algorithm:
+      - ➡️ For each  instance of the testing set to be classified:
         - ➡️ For each feature of that instance:
             - ➡️ Compute the following probabilities:
 
@@ -85,6 +86,7 @@ To terminate the process without exceeding the maximum number of iterations, the
 <br>
 
 - **predict** (x_test_binary)
+  - Algorithm: 
     - ➡️For each  instance of the testing set to be classified:
         - ➡️Compute the product of the weight vector (as learned during fitting) and the feature vector of the current example ($\vec{w} * \vec{x}$). The classification is done according to the sign of this product:
 
