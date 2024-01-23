@@ -125,3 +125,8 @@ Predict invokes the corresponding standard predict (of keras model).Then the pre
 <div align="center">
     <img src="../media/model.png" alt="biGRU RNN model">
 </div>
+
+
+## Contributors
+- Alviona Mancho [<a href="https://github.com/alvionaM">alvionaM</a>]
+- Christos Patrinopoulos [<a href="https://github.com/techristosP">techristosP</a>]
